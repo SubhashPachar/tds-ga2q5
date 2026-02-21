@@ -29,9 +29,25 @@
     { "id": "prod-210d4955-023", "name": "Elite Item 23", "category": "books", "price": 323.15, "stock": 56, "rating": 4.9 }
   ],
   "aggregations": {
-    "books": {
-      "count": 6,
-      "inventoryValue": 126814.43
-    }
+  "books": {
+    "count": 6,
+    "inventoryValue": 126814.43
+  },
+  "electronics": {
+    "count": 2,
+    "inventoryValue": 77007.55
+  },
+  "clothing": {
+    "count": 5,
+    "inventoryValue": 120742.61
+  },
+  "home": {
+    "count": 5,
+    "inventoryValue": 157937.29
+  },
+  "sports": {
+    "count": 3,
+    "inventoryValue": 71707.02
   }
+}
 }
